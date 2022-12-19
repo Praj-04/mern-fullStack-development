@@ -1,0 +1,13 @@
+body{
+    background-image: url(https://www.getthatright.com/wp-content/uploads/2018/11/Electronic-Payments.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table{
+    border: 5px solid black;
+}
+
+form{
+    border: 2px solid black;
+}

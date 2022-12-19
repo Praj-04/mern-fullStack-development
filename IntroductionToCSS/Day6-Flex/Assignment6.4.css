@@ -1,0 +1,57 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:60%;
+       display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-inline: auto;
+    margin-block: 20px;
+    
+
+}
+
+
+.box{
+    width: 40%;
+    display: flex;
+    margin: auto;
+}
+
+.icon-text {
+width: 20%;
+
+}
+
+.desc{
+    width: 80%;
+
+}
+
+.icon-text i{
+  color: rgb(241, 198, 146);
+}
+
+
+h3{
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 5px;
+    color: rgb(50, 47, 47);
+
+}
+
+p{
+    font-family: 'Nunito', sans-serif;
+    font-size: x-small;
+    margin-bottom: 10px;
+    color: rgb(107, 107, 105);
+   
+}
+
+

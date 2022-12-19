@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+button {
+    position: absolute;
+    width: 200px;
+    top: 50%;
+    left: 50%;
+    padding: 20px 40px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(228, 71, 4, 0.952);
+    border-radius: 0.2cm;
+    border: none;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-size: larger;
+    cursor: pointer;
+    
+}
+
+button::after {
+    content:'';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0px;
+    border-radius: 0.2cm;
+
+
+
+}
+
+button:hover::after {
+    position: absolute;
+    content: 'Hover >>';
+    background-color: rgba(228, 71, 4, 0.952);
+    padding: 20px 40px;
+    
+    
+    }

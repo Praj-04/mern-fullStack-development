@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+   color:  #FF9C34;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   margin: 60px;
+}
+
+.amount{
+    padding: 10px;
+    background-color:#FF9C34;
+     color:white;
+     position:absolute;
+     width:30px;
+     height:60px;
+     right: 2em;
+     
+}
+
+p{
+    color:white;
+
+}
+
+.last{
+    color:red;
+}

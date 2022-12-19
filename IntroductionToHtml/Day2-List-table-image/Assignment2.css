@@ -1,0 +1,21 @@
+table,
+tr,
+td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 10px;
+
+}
+
+tr, td:nth-child(6) {
+    border-color: black;
+    border-right-style: solid;
+    border-right-style: solid;
+    
+width: 10px;
+  }
+
+
+
+
+

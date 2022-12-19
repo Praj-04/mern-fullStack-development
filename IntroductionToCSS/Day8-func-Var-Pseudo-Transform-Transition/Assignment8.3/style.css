@@ -1,0 +1,63 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.button{
+   width: 200px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+ /* border: 1px solid black; */
+  /* background-color: rgb(46, 216, 159); */
+  border-radius: 40px;
+  position: relative;
+  transition: 2s;
+  overflow: hidden;
+  text-decoration: none;
+  letter-spacing: 0.01cm;
+  text-transform: uppercase;
+ color: rgb(240, 124, 42);
+}
+
+.button::before{
+    content: '';
+    top:1px;
+    bottom:1px;
+    left:0px;
+    right: 150px;
+    border-radius: 50%;
+    background-color: rgb(237, 118, 197);
+    position: absolute;
+    transition: 1s cubic-bezier(0.42, 0, 0.95, 1.64);
+}
+
+.button:hover::before{
+    
+    transform: scale(8);
+   
+}
+
+.button:hover::after{
+      content: 'Click me →';
+    color: black;
+    z-index: 2;
+    position: absolute;
+}
+
+.button:hover{
+    content: '';
+}

@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border:2px solid black;
+    display: grid;
+    
+    margin: 40px;
+    grid-template-columns: repeat(4,100px);
+    /* grid-template-rows: 200px 100px; -->this will set row size on 1st 2nd col */
+    grid-auto-rows: 70px; /*this will set on rest of the columns*/
+  
+    row-gap: 10px;
+    
+}
+
+.box{
+    border: 1px solid red;
+    background-color: rgb(219, 164, 164);
+    color: white;
+    padding: 20px;
+}
+
+#box-1{
+    grid-column-start: -3;
+    grid-column-end: -1;
+}
+
+
+#box-7{
+    grid-column: 2 / 4;
+    grid-row: 3 / 6;
+
+}
+
+#box-2{
+    grid-area: 2/1/span 1/span5;
+}
+
+

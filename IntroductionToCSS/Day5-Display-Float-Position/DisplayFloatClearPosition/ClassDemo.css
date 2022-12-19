@@ -1,0 +1,15 @@
+
+
+.red-border {
+border: 2px solid red
+}
+
+p{
+    display: inline;
+    margin: 40px;
+}
+
+a{
+    display: inline-block;
+    width: 300px;
+}

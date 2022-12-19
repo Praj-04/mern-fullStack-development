@@ -1,0 +1,34 @@
+*{
+    margin:auto;
+   box-sizing: border-box;
+}
+
+.box{
+    width: 400px;
+    height:470px;
+    border:7px solid black;
+    
+}
+
+img{
+    width: 100%;
+}
+
+.desc p{
+    padding: 5px;
+    margin: 10px;
+ }
+
+.grey{
+    color: rgb(126, 116, 116);
+}
+
+
+
+.buy p{
+    width: 30%;
+    height: 27px;
+    background-color : black;
+    color: white;
+  padding-inline: 15px;
+}

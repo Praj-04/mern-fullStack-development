@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.box{
+height: 60vh;
+aspect-ratio: 16/9;
+background-color: white;
+}
+
+.center{
+    text-align: center;
+    font-style: italic;
+}
+
+.apple-data{
+    text-align: left;
+    padding: 10px;
+padding-left: 50px;
+} 
+img{
+width: 100%;
+}
+
+

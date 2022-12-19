@@ -1,0 +1,45 @@
+body{
+    background-color: aquamarine;
+    
+}
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: blueviolet;
+}
+
+.text-box{
+width: 90%;
+background-color: white;
+padding: 40px;
+border-radius: 10px;
+
+}
+
+.cat-outside{
+    width: 60px;
+    position:relative;
+    top: 50px;
+}
+
+.kitty{
+    width: 200px;
+    float: right;
+}
+
+.bottom-kitty{
+    width: 200px;
+    float: left;
+    
+}
+
+.para-two{
+    clear: right;
+}
+
+.text-wrapper{
+    height: 200px;
+    width: 400px;
+    border:2px solid red;
+    overflow:scroll auto;
+}

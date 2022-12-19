@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:80%;
+   
+display: flex;
+margin-inline: auto;
+margin-block: 20px;
+justify-content: space-evenly;
+}
+
+.left-image {
+    width: 50%;
+
+}
+.left-image img{
+    width: 90%;
+    height: 80%;
+}
+
+
+.right-description{
+   width: 50%;
+    flex-direction: column;
+   }
+
+.heading{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+
+}
+
+.heading h1{
+    text-align: center;
+}
+
+
+.sub-heading{
+    text-align: center;
+    letter-spacing: 5px;
+    margin-block: 10px;
+}
+
+.description, .description2{
+    font-size: small;
+    font-weight: bold;
+    text-align: left;
+    margin-block: 20px;
+    line-height: 20px;
+    
+}
+
+mark{
+    background-color: rgb(197, 208, 208);
+}
+
+.description2 p{
+   color:grey ;
+  margin-block: 20px;
+    
+}
+

@@ -1,0 +1,12 @@
+p{
+    font-size: 3rem;
+}
+
+p::before{
+    content: 'this is a message';
+    background-color: aquamarine;
+}
+
+p::after{
+    content:'after message';
+}

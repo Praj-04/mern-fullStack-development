@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 30vw;
+    height: 80vh;
+    background-color:rgb(116, 122, 122);
+    margin: auto;
+    margin-top: 20px;
+    /* border: 2px solid black; */
+}
+
+.logo{
+    display: inline-block;
+    width: 85%;
+    background-color: rgba(50, 156, 112, 0.966);
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+   
+}
+
+.icon{
+    display: inline-block;
+    width: 15%;
+    background-color: rgb(8, 8, 8);
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+
+}
+
+.logo:hover{
+    background-color: rgb(177, 182, 182);
+}
+
+.icon:hover{
+    background-color: rgb(177, 182, 182); 
+}
+
+.desc{
+    margin: 10px;
+  
+}
+
+.desc-style{
+    padding: 10px;
+    color: white;
+    
+}
+
+.displays{
+    display: none;
+     }
+
+.dropDown{
+    display:block;
+ background-color:rgb(59, 63, 63);
+
+}
+
+.style-dropdown{
+    list-style:none;
+    font-size: 1.25rem;
+  
+   }
+
+ .decorate{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+ }  
+
+ .decorate:hover{
+    color: black;
+    background-color: white;
+ }
+
+
+
+.box{
+    width: 30vw;
+    background-color: rgb(59, 63, 63);
+    color: white;
+    display: block;
+    padding: 10px;
+
+}
+
+.box:hover{
+    background-color: white;
+    color: black;
+}

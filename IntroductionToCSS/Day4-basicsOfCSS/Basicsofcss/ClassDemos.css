@@ -1,0 +1,60 @@
+/* p{
+    border: 2px solid blue;
+}
+
+h1{
+    color: yellow;
+} */
+
+/* h1{
+    background-color: yellow;
+} */
+*{
+    padding:20px;
+    margin: 5px;
+   }
+
+  
+.red-border{
+
+    background-color: cyan;
+       border: 5px solid  red;
+       width: 50%;
+}
+
+
+#lorem-text1{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.red-border, #lorem-text1, h4{
+    background-color: brown;
+    font-style: italic;
+   
+    
+
+}
+
+header h1{
+    border: 1px dotted green;
+    color: blueviolet;
+    width: 10rem;
+}
+
+h2{
+    color: hsla(57, 86%, 56%, 0.991);
+    background-color: aquamarine;
+
+}
+
+
+h3{
+    background-color: rgba(49, 190, 209, 0.662);
+    color: rgb(92, 25, 154);
+}
+
+h5{
+    color: #086028;
+    background-color: #834aca;
+}

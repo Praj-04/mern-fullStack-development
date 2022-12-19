@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="Payment.css">
+</head>
+<body>
+<h1 >Payment Form</h1>
+
+    <form action="">
+      
+<label for="fname">First Name</label>
+<input id="fname" type="text" name="fname" value="">
+<br>
+<br>
+<label for="lname">Last Name</label>
+<input id="lname" name="lname" type="text">
+<br>
+<br>
+<label for="telephone">Phone Number</label>
+<input  id="telephone" type="tel" name="telephone"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="+1 xxx xxx xxxx">
+<br>
+<br>
+<label for="email">Email</label>
+<input id="email" name="email" type="email" placeholder="abc@gmail.com">
+<br>
+<br>
+<label for="address">Address</label>
+<input id="address" name="address" type="text">
+<br>
+<br>
+
+<h3><b>PAYMENT METHOD</b></h3>
+<label for="visa">Visa Card</label>
+<input  name="CheckboxOptions" id="visa" type="radio">
+
+<label for="master">Master Card</label>
+<input  name="CheckboxOptions" id="master" type="radio">
+
+<label for="paypal">Pay Pal</label>
+<input  name="CheckboxOptions" id="paypal" type="radio">
+
+<label for="cash">Cash On Delivery</label>
+<input  name="CheckboxOptions" id="cash" type="radio">
+<br><br>
+<label for="name">Name on Card</label>
+<input  name="name" id="name" type="text"><br><br>
+
+<label for="cardno">Card Number</label>
+<input type="tel" name="cardno" id="cardno" placeholder="xxxx xxxx xxxx xxxx" maxlength="19" inputmode="numeric" pattern="[0-9\s]{13,19}">
+<br><br>
+
+<!-- <label for="month">Expiration Date</label>
+<select name="month" id="month" >
+    <option value="">Month</option>
+    <option value="1">Jan</option>
+    <option value="2">Feb</option>
+    <option value="3">Mar</option>
+    <option value="4">Apr</option>
+    <option value="5">May</option>
+    <option value="6">Jun</option>
+    <option value="7">Jul</option>
+    <option value="8">Aug</option>
+    <option value="9">sep</option>
+    <option value="10">Oct</option>
+    <option value="11">Nov</option>
+    <option value="12">Dec</option>
+   </select> -->
+
+   <label for="mo">Expiration Month and Year</label>
+   <input id="mo" name="mo" type="month">
+<br><br>
+
+<label for="ccv">Card CCV</label>
+   <input id="ccv" name="ccv" type="text" maxlength="3" inputmode="numeric" pattern="[0-9]{3}">
+
+
+   
+
+    <br><br>
+    <input type="submit" name="submit" id="submit">
+
+</form>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    background-color:rgb(217, 243, 245);
+}
+
+ h1{
+    width:fit-content;
+/* margin-left: 40px; */
+background-color: rgb(247, 247, 146);
+padding:2px;
+}
+
+
+header p{
+  
+    width:15em;
+    margin-left: 40px;
+}
+
+.links-list h3{
+    margin-left: 0px;
+    padding: 3px;
+    padding-left: 10px;
+    background-color: rgb(247, 247, 146);
+}
+
+.connect h3{
+    margin-left: 0px;
+    padding: 3px;
+    padding-left: 10px;
+    background-color: rgb(247, 247, 146);
+}
+
+
+.favProgHeading h2{
+    margin-left: 0px;
+    padding: 3px;
+    padding-left: 10px;
+    background-color: rgb(247, 247, 146);
+    font-weight: 800;
+}
+
+.java h3{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+ .java p{
+   width: 90% ;
+} 
+
+.kotlin h3{
+    font-style: italic;
+    text-decoration: underline; 
+}
+
+.kotlin p{
+    width: 90% ; 
+}
+
+.python h3{
+    font-style: italic;
+    text-decoration: underline; 
+}
+
+.python p{
+    width: 90% ;   
+}
+
+
+/* .places h2{
+width: 600px;
+background-color: rgb(220, 244, 141);
+padding-left: 100px;
+} */
+

@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.span-3{
+    grid-column:span 3;
+}
+
+.span-2{
+    grid-column:span 2;
+}
+
+
+.container{
+    max-width:280px;
+    margin: 60px auto;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+.number-input{
+    width: 100%;
+    padding:20px 10px;
+   font-family: monospace;
+   color: white;
+   background-color: black;
+   font-size: 3rem;
+text-align: end;
+border: none;
+   
+}
+
+
+
+.buttons-grid{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    /* border: 0.1px solid rgb(23, 22, 22);
+    
+   
+   margin: auto;
+   margin-block: 50px;
+   grid-template-rows:90px;
+   grid-auto-rows: 70px; */
+}
+
+
+
+.box{
+    background-color: #ccc;
+       border:1px solid black;
+       padding-block: 12px;
+       text-align: center;
+       font-weight: bolder;
+       cursor: pointer;
+    }
+
+.yellow{
+    background-color: rgb(242, 190, 78);
+}
+
+
+.box:hover{
+    background-color: rgb(244, 246, 245);
+}
+
+
+
+
+
+
+
+
+
+
+
