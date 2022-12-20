@@ -1,0 +1,100 @@
+.container{
+    width:100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+/* background-image: linear-gradient(180deg, rgb(152, 211, 215), rgb(234, 234, 75)); */
+}
+
+.card-style{
+    width: 60%;
+    border: 1px solid black;
+    box-shadow: 5px 5px 3px rgb(240, 167, 206);}
+
+
+.card-style p{
+    text-align:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    text-shadow: 1px 2px 2px rgb(218, 124, 140);
+    color: rgb(49, 49, 104);
+}
+
+.form-style{
+    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25rem;
+}
+
+.bottom p{
+    font-weight: 700;
+    font-size: 1.6rem;
+              padding-left: 100px
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+
+.input-style{
+    width:200px ;
+}
+
+ @media only screen and (max-width:500px)  {
+
+.card-style{
+    width: 40%;
+}
+
+.form-style{
+    width: 30%;
+}
+
+.input-style{
+    width: 30%;
+}
+
+.bottom p{
+    font-size: 0.75rem;
+    padding-left: 0px
+  
+}
+
+.card-style p{
+    font-size: 1rem;
+}
+
+.date{
+    display: none;
+}
+
+.input-style{
+    width:80px ;
+}
+}
+
+
+
+@media only screen and (max-width:900px)  {
+    .card-style p{
+        font-size: 1.5rem;
+    }
+
+    .date{
+        display: none;
+    }
+}
+
+
