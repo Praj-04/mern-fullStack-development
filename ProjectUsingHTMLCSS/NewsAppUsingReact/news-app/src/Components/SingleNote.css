@@ -1,0 +1,66 @@
+.outerBox{
+    /* display: grid; 
+ */
+/* background-color: rgb(187, 201, 201); */
+/* display: grid; 
+grid-template-columns: repeat(3,1fr); */
+width:280px ;
+    height: 200px;
+gap: 5px;
+
+margin:6px 120px;
+}
+
+
+.blueBox{
+      height: 200px;
+    background-color: aquamarine;
+    border-radius: 25px;
+}
+
+
+
+
+.textAreaStyle{
+background-color: aquamarine;
+padding: 5px 10px;
+resize: none;
+border:hidden;
+border-radius: 25px;
+
+}
+
+.save-click{
+display: inline;
+
+padding:10px;
+background-color: rgb(167, 165, 160);
+cursor: pointer;
+border-radius: 25px;
+}
+
+.bottom-part{
+display: flex;
+justify-content: space-between;
+padding: 10px;
+padding-top:120px;
+
+border-radius: 25px;
+}
+
+.ul-style{
+    list-style: none;
+}
+
+.width {
+    width:280px ;
+    height: 200px;
+    background-color: rgb(205, 228, 169);
+    border-radius: 25px;
+    
+ 
+}
+.outerBox1{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+}

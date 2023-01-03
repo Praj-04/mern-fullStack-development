@@ -1,0 +1,48 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(241, 246, 244);
+   
+}
+
+.container{
+    margin: 20px 120px;
+
+
+}
+.notes-heading{
+display: flex;
+justify-content: space-between;
+padding: 30px 0px;
+}
+
+.toggle-style{
+    border-radius: 25px;
+    background-color: rgb(175, 179, 177);
+    border: none;
+    /* padding: 0px 0px;
+    margin: 0px 0px; */
+    cursor: pointer;
+    color: rgb(31, 30, 30);
+    padding: 0px 2px;
+}
+
+
+
+
+.search-bar{
+    background-color: rgb(175, 179, 177);
+    border-radius: 25px;
+    padding: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.inputtext-style{
+    background-color: rgb(175, 179, 177);
+    width: 97%;
+    padding: 5px;
+    border-radius: 25px;
+    border:rgb(175, 179, 177);
+    
+}

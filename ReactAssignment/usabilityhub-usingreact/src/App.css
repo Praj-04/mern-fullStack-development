@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+ width: 80vw;
+ /* border: 1px solid red; */
+ margin-top: 40px;
+ 
+/* display: flex;
+flex-direction: column;
+gap:20px */
+}
+
+.heading{
+  /* border: 1px solid blue; */
+  padding: 10px 0;
+  margin-bottom: 5px;
+}
+
+.buttonStyle{
+  padding:5px;
+  cursor:pointer;
+  border: 1px solid rgb(147, 147, 245);
+  display: flex;
+  border-radius: 5px;
+}
+
+.mainContainer{
+  /* border: 1px solid red; */
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+
+
+.cardStyle{
+  /* border: 1px solid purple; */
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

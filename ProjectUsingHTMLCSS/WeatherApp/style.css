@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right bottom,rgb(173, 66, 189),rgba(64, 233, 255, 0.932));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container{
+    width: 350px;
+height: 450px;
+background-color: rgba(255, 255, 255, 0.463);
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.662);
+padding: 15px;
+color: white;
+text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+form{
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form input{
+ width: 60%;
+ height: 100%;   
+ padding: 0px 10px;
+ outline: none;
+ border: none;
+ background-color: transparent;
+ border-bottom: 1.5px solid rgba(135, 139, 139, 0.432);
+ color: rgb(247, 247, 248);
+ font-weight: 500;
+ font-size: 1rem;
+}
+
+form input:focus{
+    border-bottom: 1.5px solid  rgb(251, 251, 252);
+  
+}
+form input::placeholder{
+    color:rgb(146, 143, 143);
+    opacity :1;
+}
+
+
+form button{
+    height: 100%;    
+    padding: 0px 15px;
+    margin: 0px 0px 0px 5px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    transition-duration:0.2s;
+
+}
+
+form button:active{
+scale:0.9;
+}
+
+
+.inner-container{
+    width: 100%;
+    height:80%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.city-container{
+    width: 100%;
+    text-align: center;
+    /* border:1px solid blue; */
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.city-name{
+    font-size: 2rem;
+}
+
+.weather-condition{
+    font-size: 1.4rem;
+}
+
+.temperature-container{
+    width: 100%;
+    height: calc(100% - 100px);
+}
+
+
+.weather-icon{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.temp{
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.min-max{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.min, .max{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+padding: 0 10px;
+height: 40px;
+}
+
+.min{
+    border-right: 1px solid rgb(255, 254, 254);
+}
+
+.max{
+    border-left: 1px solid rgb(255, 254, 254);
+}
+
+/* Loading  */
+
+.loading{
+    display: none;
+}
+
+/* .appear{
+    display: block;
+} */
+
+.scanner span {
+    color: transparent;
+    font-size: 1.4rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .scanner span::before {
+    content: "Loading...";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-right: 4px solid #17FEFF;
+    overflow: hidden;
+    color: #ebf5f5;
+    animation: load91371 2s linear infinite;
+  }
+  
+  @keyframes load91371 {
+    0%, 10%, 100% {
+      width: 0;
+    }
+  
+    10%,20%,30%,40%,50%,60%,70%,80%,90%,100% {
+      border-right-color: transparent;
+    }
+  
+    11%,21%,31%,41%,51%,61%,71%,81%,91% {
+      border-right-color: #17FEFF;
+    }
+  
+    60%, 80% {
+      width: 100%;
+    }
+  }
