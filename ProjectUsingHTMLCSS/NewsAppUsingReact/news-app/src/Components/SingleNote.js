@@ -1,54 +1,23 @@
-import React, { useState } from "react";
-import AddingNote from "./AddingNote";
-import "./SingleNote.css";
+import React from "react";
+import "./NotesBox.css";
 
-function SingleNote() {
-  const [currNote, setCurrentNote] = useState("");
-  const [note, setNote] = useState([]);
+import { MdOutlineDeleteForever } from "react-icons/md";
 
-  function updateCurrentNote(event) {
-    event.preventDefault();
-    setCurrentNote(event.target.value);
-    console.log("entered note", currNote);
-  }
-
-  function addNote() {
-    console.log(currNote);
-    const newNotesArray = [...note, currNote];
-
-    setNote(newNotesArray);
-    console.log(note);
+function SingleNote(props) {
+  function deleteNote(e) {
+    //    const note = props.note.filter((element)=> e.id === element.id)
   }
 
   return (
-    <div className="outerBox">
-      <ul className="ul-style">
-        {note.map((element, index) => {
-          return (
-            <li key={index}>
-              <AddingNote note={element} />
-            </li>
-          );
-        })}
-      </ul>
-
-      <div className="blueBox">
-        <form className="single-form-style" >
-          <textarea
-            onChange={updateCurrentNote}
-            className="textAreaStyle"
-            name="typeNote"
-            id="typeNote"
-            cols="30"
-            rows="10"
-            placeholder="Type to add a note..."
-          />
-        </form>
-        <div className="bottom">
-          <p className="save-click" onClick={addNote}>
-            Save
-          </p>
-        </div>
+    <div className="note" style={{ backgroundColor: "pink" }}>
+      <p className="note-style" style={{ backgroundColor: "pink" }}>
+        {props.note}
+      </p>
+      <div className="bottom-part">
+        <p> {new Date().toLocaleString()} </p>
+        <button style={{ backgroundColor: "pink" }} onClick={deleteNote}>
+          <MdOutlineDeleteForever />
+        </button>
       </div>
     </div>
   );

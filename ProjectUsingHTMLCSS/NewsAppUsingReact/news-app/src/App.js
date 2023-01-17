@@ -1,4 +1,3 @@
-
 import './App.css';
 import NotesBox from './Components/NotesBox';
 
