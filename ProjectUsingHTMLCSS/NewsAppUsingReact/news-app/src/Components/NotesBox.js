@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./NotesBox.css";
 import { GrFormSearch } from "react-icons/gr";
 import SingleNote from "./SingleNote";
+import { nanoid } from 'nanoid'
 
 function NotesBox() {
   // const notes = useRef(null);
@@ -61,15 +62,14 @@ function NotesBox() {
             />
             <div className="bottom-part">
               <p> {`${textAreaCount} Remaining`} </p>
-              {/* <p>Remaining </p> */}
               <button onClick={addNote}>Submit</button>
             </div>
           </form>
         </div>
 
         <>
-          {note.map((element, i) => {
-            return <SingleNote key={i} note={element} />;
+          {note.map((element) => {
+            return <SingleNote key={nanoid()} note={element} />;
           })}
         </>
       </div>

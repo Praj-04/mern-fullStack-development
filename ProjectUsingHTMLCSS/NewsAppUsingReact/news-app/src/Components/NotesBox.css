@@ -22,7 +22,7 @@ height: 100%;
 
 .search-bar{
     position: relative;
-    padding: 5px 0px;
+    padding: 1px 0px;
 
 }
 
@@ -34,8 +34,9 @@ height: 100%;
   border: none;
   padding: 4px;
   font-size: 0.7rem; ;
-  padding-left: 15px;
-  color:rgb(99, 97, 97) ;
+  padding: 5px 0px;
+  padding-left: 20px;
+    color:rgb(99, 97, 97) ;
 }
 
 span{

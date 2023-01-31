@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import "./NotesBox.css";
+
 
 import { MdOutlineDeleteForever } from "react-icons/md";
 
 function SingleNote(props) {
+  
+  const [allnotes ,setAllNotes] = useState([]);
+  setAllNotes(`${props.note}`)
+
+  console.log(allnotes);
   function deleteNote(e) {
-    //    const note = props.note.filter((element)=> e.id === element.id)
+     const note = allnotes.filter((element)=>  element.id !== e.id)
   }
 
   return (
