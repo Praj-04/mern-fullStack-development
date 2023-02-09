@@ -97,7 +97,7 @@ async function getUserInfo() {
 async function checkIfAlreadyPresent(name) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      const namehere = "Prajna";
+      const namehere = "Prjna";
       if (namehere != name) {
         resolve(`${name} is  not present`);
       } else {
@@ -126,8 +126,11 @@ async function sendSignUpEmails(account) {
 async function userSignup() {
   try {
     const name = await getUserInfo();
+    console.log('name is',name)
     const notPresent = await checkIfAlreadyPresent(name);
+    console.log(notPresent)
     const account = await createAccount(notPresent);
+    console.log(account)
     const success = await sendSignUpEmails(account);
     console.log("Its is a new account", success);
     return success;
