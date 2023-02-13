@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praj's Store</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Praj's Store</h1>
+    </header>
+    <div id="container" class="container">
+      <template id="prod-template"> 
+      <div id="product-box" class="product-box">
+        <div class="arrow">
+          <button id="left-btn" class="btn left"> << </button>
+          <button id="right-btn" class="btn right"> >>  </button>
+        </div>
+        
+        <img
+          class="my-img"
+          id="my-img"
+          src="https://placeholder.com/200"
+          alt=""
+        />
+
+        <h3 id="title" class="title">Title</h3>
+
+        <p id="description" class="description"></p>
+
+        <div id="brand-rating" class="brand-rating">
+          <p id="brand" class="brand"></p>
+          <p id="rating" class="rating">Rating:</p>
+          <p id="price" class="price">Price:</p>
+        </div>
+      </div>
+    </template>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
