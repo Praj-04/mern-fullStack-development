@@ -24,32 +24,13 @@ async function fetchData(cuisine,type,diet,query){
         console.log('after fetch',diet)
         console.log('after fetch',query)
       const response = await fetch(`https://api.spoonacular.com/recipes/complexSearch?apiKey=422ed53d94e84c9cb89a7d22da53ad43&number=5&cuisine=${cuisine}&type=${type}&diet=${diet}&query=${query}`)
-      
+
      const data = await response.json();
      console.log(data);
  }
     
 
 
-
-
-
-
-// async function fetchData(cuisines,type,diet,query){
-
-//    if(cuisines==undefined){
-//     cuisines=null
-//    }else if(type==undefined){
-//     type=null
-//    }else if(diet==undefined){
-//     diet=null
-//    }else if(query==undefined){
-//     query=null
-//    }
-//  const response = await fetch(`https://api.spoonacular.com/recipes/complexSearch?apiKey=422ed53d94e84c9cb89a7d22da53ad43&number=5&cuisine=${cuisine}&type=${type}&diet=${diet}&query=${query}`)
-//  const data = await response.json();
-//  console.log(data);
-// }
 
 
 
@@ -81,11 +62,5 @@ cuisine.addEventListener('change',(event)=>{
 
 
 
-// query.addEventListener('click',(event)=>{
-// event.preventDefault();
-// let query = event.target.value
-// fetchData(null,null,null,query)
-// })
 
-    
 
