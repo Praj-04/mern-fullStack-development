@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --red-color:rgb(231, 58, 58);
+}
+
+.container{
+width: 100vw;
+height: 100vh;
+overflow-x: hidden;
+background-color: rgb(233, 222, 243);
+}
+
+.navigation-bar{
+    width: 100%;
+    height: 10%;
+    /* border: 0.1px solid red; */
+    box-shadow: 2px 2px 3px rgb(237, 177, 177);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 20px;
+    background-color: rgb(233, 222, 243);
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: var(--red-color);
+text-shadow: 2px 2px 2px rgb(77, 74, 74);
+}
+
+.cuisine{
+    background-color: var(--red-color);
+    color: white;
+    border: none;
+    
+}
+
+.meal-type{
+    background-color:  var(--red-color);
+    color: white;
+    border: none;
+}
+
+.diet{
+    background-color:  var(--red-color);
+    color: white; 
+    border: none; 
+}
+
+
+
+.search-bar{
+    background-color: var(--red-color);
+    color:white;
+   
+}
+
+.submit-btn{
+    background-color:  var(--red-color);
+    color: white; 
+    border: none; 
+    padding: 3px;
+
+}
+
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: white;
+  }
+
+
+  .recipe-content{
+    width: 95%;
+    height: 100%;
+    margin: 20px auto;
+    
+
+  }
+
+  .box{
+    width: 200px;
+    height: 250px;
+    border: 1px solid rgb(152, 150, 150);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 5px;
+  }
+
+  .recipe-img img{
+    border-radius: 50%;
+
+  }
+
+  .title{
+    text-align: center;
+    
+  }
+
+  .calories{
+    text-align: center;
+    
+}

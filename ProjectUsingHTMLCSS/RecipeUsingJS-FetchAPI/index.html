@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praj's Kitchen</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container" id="container">
+      <nav class="navigation-bar" id="navigation-bar">
+        <div class="name-left" id="name-left">
+          <h1>Praj's Kitchen</h1>
+        </div>
+
+        <div class="menu-right" id="menu-right">
+          <select id="cuisine" class="cuisine" name="cuisine">
+            <option
+              disabled="disabled"
+              selected="selected"
+              style="display: none"
+              value=""
+            >
+              Cuisine
+            </option>
+            <option value="indian">Indian</option>
+            <option value="american">American</option>
+            <option value="thai">Thai</option>
+            <option value="british">British</option>
+          </select>
+
+          <select id="meal-type" class="meal-type" name="meal-type">
+            <option
+              disabled="disabled"
+              selected="selected"
+              style="display: none"
+              value=""
+            >
+              Meal
+            </option>
+            <option value="breakfast">Breakfast</option>
+            <option value="maincourse">Main Course</option>
+            <option value="dessert">dessert</option>
+            <option value="appetizer">Appetizer</option>
+          </select>
+
+          <select id="diet" class="diet" name="diet">
+            <option
+              disabled="disabled"
+              selected="selected"
+              style="display: none"
+              value=""
+            >
+              Diet
+            </option>
+            <option value="vegetarian">Vegetarian</option>
+            <option value="omnivore">Non-Vegetarian</option>
+            <option value="glutenfree">Gluten-Free</option>
+            <option value="Ketogenic">Ketogenic</option>
+          </select>
+
+        
+          <input
+            type="search"
+            id="query"
+            name="query"
+            placeholder="Search"
+            class="search-bar"
+          />
+          <!-- <input type="submit" class="submit-btn" id="submit-btn" /> -->
+        
+        </div>
+      </nav>
+
+      <div class="recipe-content">
+
+        <div class="box">
+          <div class="recipe-img">
+            <img src="https://placeholder.com/150" alt="" />
+          </div>
+
+          <div id="title" class="title">Title</div>
+
+          <div id="calories" class="calories">Calories</div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
