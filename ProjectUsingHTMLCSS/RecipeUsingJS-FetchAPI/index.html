@@ -15,79 +15,57 @@
         </div>
 
         <div class="menu-right" id="menu-right">
-          <select id="cuisine" class="cuisine" name="cuisine">
-            <option
-              disabled="disabled"
-              selected="selected"
-              style="display: none"
-              value=""
-            >
-              Cuisine
-            </option>
+          <select id="cuisine" class="cuisine style" name="cuisine">
+            <option selected="selected" value="">Cuisine</option>
             <option value="indian">Indian</option>
             <option value="american">American</option>
             <option value="thai">Thai</option>
             <option value="british">British</option>
           </select>
 
-          <select id="meal-type" class="meal-type" name="meal-type">
-            <option
-              disabled="disabled"
-              selected="selected"
-              style="display: none"
-              value=""
-            >
-              Meal
-            </option>
+          <!-- style="display: none"  and   disabled="disabled" removed-->
+
+          <select id="meal-type" class="meal-type style" name="meal-type">
+            <option selected="selected" value="">Meal</option>
             <option value="breakfast">Breakfast</option>
             <option value="maincourse">Main Course</option>
             <option value="dessert">dessert</option>
             <option value="appetizer">Appetizer</option>
           </select>
 
-          <select id="diet" class="diet" name="diet">
-            <option
-              disabled="disabled"
-              selected="selected"
-              style="display: none"
-              value=""
-            >
-              Diet
-            </option>
+          <select id="diet" class="diet style" name="diet">
+            <option selected="selected" value="">Diet</option>
             <option value="vegetarian">Vegetarian</option>
             <option value="omnivore">Non-Vegetarian</option>
             <option value="glutenfree">Gluten-Free</option>
             <option value="Ketogenic">Ketogenic</option>
           </select>
 
-        
           <input
             type="search"
             id="query"
             name="query"
             placeholder="Search"
-            class="search-bar"
+            class="search-bar style"
           />
           <!-- <input type="submit" class="submit-btn" id="submit-btn" /> -->
-        
         </div>
       </nav>
 
-      <div class="recipe-content">
+      <div class="recipe-content" id="recipe-content">
 
-        <div class="box">
+        <template id="box-template">
+        <div class="box" id="box">
           <div class="recipe-img">
-            <img src="https://placeholder.com/150" alt="" />
+            <img id="food-Img" src="https://placeholder.com/150" alt="" />
           </div>
 
           <div id="title" class="title">Title</div>
 
           <div id="calories" class="calories">Calories</div>
         </div>
-
+      </template>
       </div>
-
-
     </div>
 
     <script src="script.js"></script>

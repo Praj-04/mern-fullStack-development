@@ -34,32 +34,20 @@ color: var(--red-color);
 text-shadow: 2px 2px 2px rgb(77, 74, 74);
 }
 
-.cuisine{
-    background-color: var(--red-color);
-    color: white;
-    border: none;
-    
-}
-
-.meal-type{
-    background-color:  var(--red-color);
-    color: white;
-    border: none;
-}
-
-.diet{
-    background-color:  var(--red-color);
-    color: white; 
-    border: none; 
+.style{
+  background-color:  var(--red-color);
+  color: white; 
+  border: none; 
 }
 
 
 
 .search-bar{
-    background-color: var(--red-color);
-    color:white;
-   
+      border: 2px solid white;
+   outline: none;
 }
+
+
 
 .submit-btn{
     background-color:  var(--red-color);
@@ -87,6 +75,10 @@ text-shadow: 2px 2px 2px rgb(77, 74, 74);
     width: 95%;
     height: 100%;
     margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-evenly;
+    
     
 
   }
@@ -99,11 +91,23 @@ text-shadow: 2px 2px 2px rgb(77, 74, 74);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    margin: 5px 0px;
     padding: 5px 5px;
+  }
+
+  .recipe-img{
+    width: 150px;
+    height: 150px;
+    
+
   }
 
   .recipe-img img{
     border-radius: 50%;
+    width: 150px;
+    height: 150px;
+   box-shadow: 2px 2px 2px black;
 
   }
 
