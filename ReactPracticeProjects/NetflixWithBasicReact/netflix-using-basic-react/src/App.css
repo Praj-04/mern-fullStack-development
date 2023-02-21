@@ -1,0 +1,62 @@
+.App{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+
+.populate-movie{
+    width: 80vw;
+    height: 100%;
+border: 1px solid grey;
+margin: 0px auto;
+
+}
+
+
+.populate-movie{
+    color: rgb(197, 195, 193);
+}
+
+.selection{
+    display: flex;
+    justify-content: space-between;
+    padding:20px ;
+    border: 1px solid white;
+}
+
+.left-selection h1{
+    padding-bottom: 10px;
+
+}
+
+.left-selection .filter{
+    width: 250px;
+    background-color: rgb(197, 195, 193);
+    padding: 10px;
+    font-size: 0.9rem;
+    color: rgb(188, 37, 190);
+}
+
+.right-selection{
+    display: flex;
+    gap: 20px;
+}
+
+.view-style:hover{
+    cursor: pointer;
+    color: rgb(188, 37, 190);
+}
+
+.view-style:active{
+    color: rgb(197, 195, 193);
+}
+
+
+.movie-collection{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 20px;
+    column-gap: 25px;
+   
+}
