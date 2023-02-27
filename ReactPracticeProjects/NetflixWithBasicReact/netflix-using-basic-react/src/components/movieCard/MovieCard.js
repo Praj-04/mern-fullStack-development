@@ -5,7 +5,7 @@ function MovieCard(props) {
    
   return (
     <div className='image-size'>
-        <img className='movie-poster' src={props.images.image} alt="movie-poster" />
+        <img className='movie-poster' src={props.images} alt="movie-poster" />
     </div>
   )
 }
