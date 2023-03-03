@@ -1,0 +1,36 @@
+.home-page{
+    width: 100vw;
+    height: 90vh;
+    background-color: rgb(246, 235, 219);
+
+}
+
+.login-box{
+    border: 2px solid #ff0000;
+    margin:10px 10px;
+    padding:10px 10px ;
+    min-height: 200px;
+    min-width: 400px;
+    display: inline-block;
+    
+}
+
+.label-style{
+    background-color: rgb(230, 226, 226);
+    width: 100px;
+    display: inline-block;
+    border: 1px solid white;
+    margin: 5px 10px;
+}
+
+.input-style{
+    background-color: rgb(251, 250, 250);
+    width: 250px;
+}
+
+.submit-style{
+    margin: 15px 10px;
+    background-color: rgb(39, 38, 38);
+    color: white;
+    width: 70px;
+}

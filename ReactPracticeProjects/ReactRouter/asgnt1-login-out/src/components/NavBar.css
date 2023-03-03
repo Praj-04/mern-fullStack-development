@@ -1,0 +1,15 @@
+.nav-bar{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(238, 187, 234);
+    border: 2px solid rgb(198, 178, 178);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    text-shadow: 2px 2px 2px black;
+    font-size: 2rem;
+}
