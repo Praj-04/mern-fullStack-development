@@ -1,0 +1,59 @@
+.nav-bar{
+    width: 70vw;
+  height: 15vh;
+  margin: 0px auto;
+  background-color: beige;
+}
+
+.first-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    /* border:1px solid grey; */
+padding: 0px 5px;
+  }
+  
+  .search-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 2px 2px rgb(198, 196, 196);
+    height: 45px;
+    width: 400px;
+    border-radius: 5px;
+  }
+
+
+  .logo{
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-style: italic;
+  }
+
+  .icon-style{
+    color: red;
+    padding: 5px;
+  }
+
+  .left-dropDown{
+    padding: 5px;
+  }
+  
+
+  .options-style{
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+
+  .click{
+    color: grey;
+  }
+
+  .click:hover{
+    color: red;
+    cursor: pointer;
+  }

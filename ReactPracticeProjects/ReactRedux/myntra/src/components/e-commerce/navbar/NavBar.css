@@ -1,0 +1,18 @@
+nav{
+    background-color: rgb(133, 177, 162);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+box-shadow: 2px 2px 2px grey;
+color: white;
+}
+
+
+.cart-layout{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 1rem;
+
+}
