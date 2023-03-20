@@ -1,12 +1,23 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
+import { Outlet, useParams } from 'react-router-dom'
 
 function DisplayRest() {
     const param = useParams();
     
-  return (
-    <div>The restaurant is {param.id}</div>
-  )
+    // useEffect(()=>{
+
+    // },[param])
+  return  <Outlet /> ?  <Outlet /> :<div>The restaurant is {param.id} </div> 
+    
+   
+{/* <div>The restaurant is {param.id} </div> ? <div>The restaurant is {param.id} </div> : <Outlet /> */}
+
+// { !<Outlet /> ? <div>The restaurant is {param.id} </div> : <Outlet /> }
+
+    // <div>The restaurant is {param.id}
+    // <Outlet />
+    // </div>
+  
 }
 
 export default DisplayRest
