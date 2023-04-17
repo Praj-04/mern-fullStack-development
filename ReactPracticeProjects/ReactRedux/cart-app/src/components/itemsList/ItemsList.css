@@ -1,0 +1,25 @@
+.itemsList-outerBox{
+    width: 80vw;
+    border: 2px solid rgb(179, 177, 177);
+margin: 20px auto;
+}
+
+.items{
+    width: 60vw;
+       border: 2px solid rgb(179, 177, 177);
+    margin: 20px auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 40px;
+font-size: 1.1rem;
+background-color: rgb(234, 234, 234);
+
+}
+
+.left-items, .right-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}

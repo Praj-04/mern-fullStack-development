@@ -1,0 +1,21 @@
+.App{
+    width: 100vw;
+    height: 100vh;
+    border: 4px solid grey;
+}
+
+.item-desc{
+    width: 80vw;
+    height: 5vh;
+    border: 2px solid rgb(179, 177, 177);
+    margin: 20px auto ;
+    font-size: 1.2rem;
+    margin-top: 50px;
+}
+
+
+.add-subtract:hover{
+    cursor: pointer;
+    
+    }
+
